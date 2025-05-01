@@ -39,38 +39,39 @@ Team JourneyVista
 
 Home Page:
 
-<img width="1512" alt="Screenshot 2025-04-27 at 9 27 24 PM" src="https://github.com/user-attachments/assets/b70dd696-76eb-43e5-94d1-62ba196a7c35" />
+<img width="1512" alt="Screenshot 2025-04-27 at 9 27 24 PM" src="https://github.com/user-attachments/assets/d4a6d447-5c68-4a10-a8ff-3f67f3c3b63d" />
+
 
 Weather Page:
 
-<img width="1497" alt="Screenshot 2025-04-26 at 1 39 11 PM" src="https://github.com/user-attachments/assets/bc6bb2b8-beaa-4d60-9d7c-215d9bf23502" />
+<img width="1497" alt="Screenshot 2025-04-26 at 1 39 11 PM" src="https://github.com/user-attachments/assets/b78266b9-8ffd-4757-a70c-f78e9004bfcf" />
+
 
 Customize Page:
 
-<img width="1512" alt="Screenshot 2025-04-25 at 6 38 39 PM" src="https://github.com/user-attachments/assets/ef2b9ab1-b839-44ae-9f87-2c89df20e4d7" />
+<img width="1490" alt="Screenshot 2025-04-26 at 1 39 30 PM" src="https://github.com/user-attachments/assets/f4c4cc98-9866-4a23-a82c-03dbd88fddc0" />
+
 
 Start Planning Page:
 
-<img width="1512" alt="Screenshot 2025-04-25 at 7 20 19 PM" src="https://github.com/user-attachments/assets/b5fc4f93-a436-4832-8dd4-6ebabb2ad21f" />
+<img width="1512" alt="Screenshot 2025-04-25 at 7 20 19 PM" src="https://github.com/user-attachments/assets/f947171c-8694-4b6d-89c8-bafc4ce81658" />
+
 
 Maharastra:
 
-<img width="1505" alt="Screenshot 2025-04-27 at 9 30 48 PM" src="https://github.com/user-attachments/assets/8a149693-62e8-467a-95f7-72a5d986c975" />
-<img width="1501" alt="Screenshot 2025-04-27 at 9 31 02 PM" src="https://github.com/user-attachments/assets/3c20b83e-754c-4700-b29b-9fa892bff7c4" />
-<img width="1498" alt="Screenshot 2025-04-27 at 9 31 15 PM" src="https://github.com/user-attachments/assets/59a264ca-7d3d-43cd-9bd7-8086a97693f1" />
-<img width="1500" alt="Screenshot 2025-04-27 at 9 31 26 PM" src="https://github.com/user-attachments/assets/97363c2f-040b-445e-8ffc-64b11bddba16" />
-<img width="1501" alt="Screenshot 2025-04-27 at 9 31 36 PM" src="https://github.com/user-attachments/assets/1429a69d-7bd6-45f5-a368-59856679b799" />
-<img width="1510" alt="Screenshot 2025-04-27 at 9 31 46 PM" src="https://github.com/user-attachments/assets/edad3e89-6d4a-44f1-a9d2-24482d5f3e3a" />
+<img width="1505" alt="Screenshot 2025-04-27 at 9 30 48 PM" src="https://github.com/user-attachments/assets/b1762a25-6369-4176-909e-10f8f286a133" />
+<img width="1501" alt="Screenshot 2025-04-27 at 9 31 02 PM" src="https://github.com/user-attachments/assets/68cd413e-3a7f-488f-b2b0-fe2e079f0ddd" />
+<img width="1498" alt="Screenshot 2025-04-27 at 9 31 15 PM" src="https://github.com/user-attachments/assets/0faf22b7-a038-48f2-97d0-ddecee54ff9e" />
+<img width="1500" alt="Screenshot 2025-04-27 at 9 31 26 PM" src="https://github.com/user-attachments/assets/cb3d59cc-2368-4c1d-896b-eda688c429c7" />
+<img width="1501" alt="Screenshot 2025-04-27 at 9 31 36 PM" src="https://github.com/user-attachments/assets/9ff2c739-3428-4ace-960a-e7e5d65fae54" />
+<img width="1510" alt="Screenshot 2025-04-27 at 9 31 46 PM" src="https://github.com/user-attachments/assets/0a68ac0b-07e8-4948-9b30-238a61b9a5da" />
+
 
 About Page:
 
-<img width="1496" alt="Screenshot 2025-04-26 at 1 39 50 PM" src="https://github.com/user-attachments/assets/396ec1f3-7b27-4096-bc65-4da3236cbfb8" />
-<img width="1512" alt="Screenshot 2025-04-25 at 7 20 19 PM" src="https://github.com/user-attachments/assets/dc5e3cdb-c48f-4823-8984-a97de343acfb" />
-<img width="1499" alt="Screenshot 2025-04-27 at 9 30 26 PM" src="https://github.com/user-attachments/assets/a5db730c-f3e1-4bf8-9543-a45170d957dc" />
-
-
-
-
+<img width="1496" alt="Screenshot 2025-04-26 at 1 39 50 PM" src="https://github.com/user-attachments/assets/eb158e95-f603-49c9-85ac-35cc2bf768a7" />
+<img width="1498" alt="Screenshot 2025-04-27 at 9 30 09 PM" src="https://github.com/user-attachments/assets/6cbbfe0b-fde7-48a9-914e-ddc2dbdb9945" />
+<img width="1499" alt="Screenshot 2025-04-27 at 9 30 26 PM" src="https://github.com/user-attachments/assets/8c154db9-db21-4ca1-bc91-540d37afb08b" />
 
 
 
