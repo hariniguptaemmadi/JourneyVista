@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discover Uttar Pradesh</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Discover the beauty and culture of Uttar Pradesh - from the Taj Mahal to Diwali celebrations in Ayodhya.">
+  <meta name="keywords" content="Uttar Pradesh tourism, Taj Mahal, Varanasi, Ayodhya, Indian culture, food, travel">
+  <meta name="author" content="JourneyVista">
+
+  <!-- Smooth Scroll -->
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .fade-in {
+      animation: fadeIn 2s ease-out forwards;
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Top Right Explore More Button -->
+  <div class="fixed top-4 right-4 z-50">
+    <a href="/Weather.html"  target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2 rounded shadow-md transition">
+      Weather
+    </a>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="relative h-[70vh] bg-cover bg-center" style="background-image: url('/images/Destination3.jpg');">
+    <div class="absolute inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center flex-col text-center p-4 fade-in">
+      <h1 class="text-5xl font-bold mb-4">Explore the Richness of Uttar Pradesh</h1>
+      <p class="text-lg mb-6">Heritage, faith, food, and timeless traditions.</p>
+      <a href="#places" class="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition-all">Discover More</a>
+    </div>
+  </div>
+
+  <!-- Tour Packages (Places to Visit) -->
+  <section id="places" class="py-16 bg-gray-900">
+    <h2 class="text-4xl font-bold text-center mb-12 fade-in">Must-Visit Destinations</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 sm:px-6 lg:px-8">
+
+      <div class="relative fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/tajmahal.jpg" alt="Taj Mahal in Agra" class="rounded-lg h-[250px] w-full object-cover" />
+        <div class="absolute bottom-0 bg-black bg-opacity-60 w-full p-4">
+          <h3 class="text-xl font-bold">Agra</h3>
+          <p>Home to the Taj Mahal and Mughal grandeur.</p>
+          <p class="text-yellow-400 text-sm mt-1">⭐⭐⭐⭐⭐ (4.9)</p>
+        </div>
+      </div>
+
+      <div class="relative fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/Varanasi.jpg" alt="Ganga Ghats in Varanasi" class="rounded-lg h-[250px] w-full object-cover" />
+        <div class="absolute bottom-0 bg-black bg-opacity-60 w-full p-4">
+          <h3 class="text-xl font-bold">Varanasi</h3>
+          <p>Spiritual capital with Ganga aarti and ghats.</p>
+          <p class="text-yellow-400 text-sm mt-1">⭐⭐⭐⭐☆ (4.7)</p>
+        </div>
+      </div>
+
+      <div class="relative fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/ram-janmaboomi-ayodhya-uttar pradesh-1.jpg" alt="Ram Janmabhoomi in Ayodhya" class="rounded-lg h-[250px] w-full object-cover" />
+        <div class="absolute bottom-0 bg-black bg-opacity-60 w-full p-4">
+          <h3 class="text-xl font-bold">Ayodhya</h3>
+          <p>Birthplace of Lord Ram and cultural legacy.</p>
+          <p class="text-yellow-400 text-sm mt-1">⭐⭐⭐⭐☆ (4.6)</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Hotels Section -->
+  <section class="py-16 bg-gray-800">
+    <h2 class="text-4xl font-bold text-center mb-12 fade-in text-white">Top Hotels</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 px-4 sm:px-6 lg:px-8">
+  
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/oberoi.webp" alt="The Oberoi Amarvilas, Agra" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="font-semibold text-lg text-white">The Oberoi Amarvilas, Agra</h4>
+        <p class="text-sm text-gray-300">Luxury with a view of the Taj.</p>
+        <p class="text-yellow-400 text-sm mt-1">⭐️⭐️⭐️⭐️⭐️ <span class="text-gray-200 ml-1">(5.0)</span></p>
+      </div>
+  
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/ramda plaza.jpg" alt="Ramada Plaza, Varanasi" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="font-semibold text-lg text-white">Ramada Plaza, Varanasi</h4>
+        <p class="text-sm text-gray-300">Comfort near sacred ghats.</p>
+        <p class="text-yellow-400 text-sm mt-1">⭐️⭐️⭐️⭐️☆ <span class="text-gray-200 ml-1">(4.4)</span></p>
+      </div>
+  
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/hotel clarks.webp" alt="Clarks Avadh, Lucknow" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="font-semibold text-lg text-white">Clarks Avadh, Lucknow</h4>
+        <p class="text-sm text-gray-300">Old-world charm and Nawabi feel.</p>
+        <p class="text-yellow-400 text-sm mt-1">⭐️⭐️⭐️⭐️☆ <span class="text-gray-200 ml-1">(4.3)</span></p>
+      </div>
+  
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/ayodhya resort.jpg" alt="Ayodhya Dham Resort" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="font-semibold text-lg text-white">Ayodhya Dham Resort</h4>
+        <p class="text-sm text-gray-300">Tranquil retreat near temples.</p>
+        <p class="text-yellow-400 text-sm mt-1">⭐️⭐️⭐️⭐️☆ <span class="text-gray-200 ml-1">(4.2)</span></p>
+      </div>
+  
+    </div>
+  </section>
+  
+  
+  
+
+  <!-- Food Section -->
+  <section class="py-16 bg-gray-900">
+    <h2 class="text-4xl font-bold text-center mb-12 fade-in">Must-Try Food</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 sm:px-6 lg:px-8">
+
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/1641303043274w  244 (9).png" alt="Tunday Kabab" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="text-xl font-semibold">Tunday Kabab</h4>
+        <p>Melt-in-mouth Lucknowi delicacy.</p>
+      </div>
+
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/chat.jpg" alt="Banarasi Chaat" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="text-xl font-semibold">Banarasi Chaat</h4>
+        <p>Sweet-spicy tang from the streets of Kashi.</p>
+      </div>
+
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/Litti-Chokha-163342107716x9.jpg" alt="Litti Chokha" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="text-xl font-semibold">Litti Chokha</h4>
+        <p>Rustic bites from Purvanchal.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Culture / Blog Section -->
+  <section class="py-16 bg-gray-800">
+    <h2 class="text-4xl font-bold text-center mb-12 fade-in">Culture & Traditions</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-4 sm:px-6 lg:px-8">
+
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/maxresdefault.jpg" alt="Kathak Dance Performance" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="text-xl font-semibold">Kathak Dance</h4>
+        <p>Classical storytelling through rhythm and grace.</p>
+      </div>
+
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/legacy_products_PRT_8658_74823__82221.jpg" alt="Temple Architecture" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="text-xl font-semibold">Temple Art & Architecture</h4>
+        <p>Awadhi, Mughal and Hindu fusion styles.</p>
+      </div>
+
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/images (3).jpg" alt="Diwali Celebrations in Ayodhya" class="rounded-lg h-[200px] w-full object-cover mb-2" />
+        <h4 class="text-xl font-semibold">Diwali in Ayodhya</h4>
+        <p>Ram ki Paidi lit with a million diyas.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Google Map Section -->
+  <section id="map-section" class="py-16 bg-gray-900">
+    <h2 class="text-4xl font-bold text-center mb-8 fade-in">Uttar Pradesh on the Map</h2>
+    <div class="flex justify-center">
+      <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1MXqqj8uGM1cMBEL6ruy17jTGWrCowBk&ehbc=2E312F" width="640" height="480" class="transition-all duration-500 transform hover:scale-105 rounded-md"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 bg-black text-center text-gray-500">
+    <p>&copy; 2025 Uttar Pradesh Tourism | All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

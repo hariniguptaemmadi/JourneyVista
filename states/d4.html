@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Discover Andhra Pradesh</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .fade-in {
+      animation: fadeIn 1s ease-out;
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Top Right Explore More Button -->
+  <div class="fixed top-4 right-4 z-50">
+    <a href="/Weather.html" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-5 py-2 rounded shadow-md transition">
+      Weather
+    </a>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="relative h-[70vh] bg-cover bg-center" style="background-image: url('/images/Destination4.webp');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center flex-col text-center p-4 fade-in">
+      <h1 class="text-5xl font-bold mb-4">The Essence Of Incredible India</h1>
+      <p class="text-lg mb-6">Andhra Pradesh - Culture, Coastlines, and Charm.</p>
+      <a href="#places" class="bg-blue-500 text-white px-6 py-3 rounded hover:bg-blue-600 transition-all">Discover More</a>
+    </div>
+  </div>
+  <!-- Must-Visit Destinations -->
+<section id="places" class="py-16 bg-gray-900">
+  <h2 class="text-4xl font-bold text-center mb-12 fade-in">Must-Visit Destinations</h2>
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-8">
+    
+    <div class="fade-in group hover:scale-105 hover:shadow-xl transition-all duration-500">
+      <img src="../images/Tirupati.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+      <h4 class="font-semibold text-lg">Tirupati</h4>
+      <p class="text-yellow-400 text-sm mb-1">⭐⭐⭐⭐⭐(5)</p>
+      <p>A divine journey to the abode of Lord Venkateswara.</p>
+    </div>
+
+    <div class="fade-in group hover:scale-105 hover:shadow-xl transition-all duration-500">
+      <img src="../images/Araku.jpeg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+      <h4 class="font-semibold text-lg">Araku Valley</h4>
+      <p class="text-yellow-400 text-sm mb-1">⭐⭐⭐⭐☆(4.5)</p>
+      <p>Nature's hidden jewel in the Eastern Ghats.</p>
+    </div>
+
+    <div class="fade-in group hover:scale-105 hover:shadow-xl transition-all duration-500">
+      <img src="../images/kakinada.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+      <h4 class="font-semibold text-lg">Kakinada Beach</h4>
+      <p class="text-yellow-400 text-sm mb-1">⭐⭐⭐⭐☆(4)</p>
+      <p>Golden sands, serene vibes, and seafood dreams.</p>
+    </div>
+
+    <div class="fade-in group hover:scale-105 hover:shadow-xl transition-all duration-500">
+      <img src="../images/Vijaywada.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+      <h4 class="font-semibold text-lg">Vijayawada</h4>
+      <p class="text-yellow-400 text-sm mb-1">⭐⭐⭐⭐⭐(5)</p>
+      <p>The City of Victory and Vibrance.</p>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- Hotels Section -->
+  <section class="py-16 bg-gray-800">
+    <h2 class="text-4xl font-bold text-center mb-12 fade-in">Top Hotels</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6 px-8">
+  
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/hotel1.jpeg" class="rounded-lg mb-2 h-48 w-full object-cover" />
+        <h4 class="font-semibold text-lg">Taj West End</h4>
+        <p class="text-sm">Luxury in lush greenery, Bengaluru.</p>
+        <p class="text-yellow-400 text-sm mt-2">⭐⭐⭐⭐⭐ (4.8)</p>
+      </div>
+  
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/hotel2.jpeg" class="rounded-lg mb-2 h-48 w-full object-cover" />
+        <h4 class="font-semibold text-lg">IBIS Mysore</h4>
+        <p class="text-sm">Modern stay near heritage sites.</p>
+        <p class="text-yellow-400 text-sm mt-2">⭐⭐⭐⭐☆ (4.4)</p>
+      </div>
+  
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/hotel3.jpeg" class="rounded-lg mb-2 h-48 w-full object-cover" />
+        <h4 class="font-semibold text-lg">The Orchid Coorg</h4>
+        <p class="text-sm">Scenic views and warm hospitality.</p>
+        <p class="text-yellow-400 text-sm mt-2">⭐⭐⭐⭐☆ (4.5)</p>
+      </div>
+  
+      <div class="fade-in hover:scale-105 transition-all duration-500">
+        <img src="/images/hotel4.jpeg" class="rounded-lg mb-2 h-48 w-full object-cover" />
+        <h4 class="font-semibold text-lg">Royal Orchid, Bangalore</h4>
+        <p class="text-sm">Comfort and elegance in the city.</p>
+        <p class="text-yellow-400 text-sm mt-2">⭐⭐⭐⭐☆ (4.3)</p>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- Must-Try Food -->
+  <section class="py-16 bg-gray-900">
+    <h2 class="text-4xl font-bold text-center mb-12 fade-in">Must-Try Food</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-8">
+      <div class="fade-in hover:scale-105 hover:shadow-xl transition-all duration-500">
+        <img src="/images/bobbatlu.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+        <h4 class="text-xl font-semibold">Bobbatlu</h4>
+        <p>Festive flavors wrapped in golden warmth.</p>
+      </div>
+      <div class="fade-in hover:scale-105 hover:shadow-xl transition-all duration-500">
+        <img src="/images/Fishpulusu.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+        <h4 class="text-xl font-semibold">Chepala Pulusu</h4>
+        <p>Coastal flavors cooked with passion.</p>
+      </div>
+      <div class="fade-in hover:scale-105 hover:shadow-xl transition-all duration-500">
+        <img src="/images/pootharekulu.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+        <h4 class="text-xl font-semibold">Pootharekulu</h4>
+        <p>Layers of sweetness wrapped in rice magic.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Culture & Traditions -->
+  <section class="py-16 bg-gray-800">
+    <h2 class="text-4xl font-bold text-center mb-12 fade-in">Culture & Traditions</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 px-8">
+      <div class="fade-in hover:scale-105 hover:shadow-xl transition-all duration-500">
+        <img src="/images/kuchipudi.png" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+        <h4 class="text-xl font-semibold">Kuchipudi Dance</h4>
+        <p>Grace in motion, tradition in every step.</p>
+      </div>
+      <div class="fade-in hover:scale-105 hover:shadow-xl transition-all duration-500">
+        <img src="/images/bobilliveena.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+        <h4 class="text-xl font-semibold">Bobbili Veena</h4>
+        <p>Strings that echo centuries of music.</p>
+      </div>
+      <div class="fade-in hover:scale-105 hover:shadow-xl transition-all duration-500">
+        <img src="/images/kondepalli.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+        <h4 class="text-xl font-semibold">Kondapalli Toys</h4>
+        <p>Stories carved in wood and color.</p>
+      </div>
+      <div class="fade-in hover:scale-105 hover:shadow-xl transition-all duration-500">
+        <img src="/images/ugadi.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+        <h4 class="text-xl font-semibold">Ugadi Festival</h4>
+        <p>Welcoming the new year with flavors of life.</p>
+      </div>
+      <div class="fade-in hover:scale-105 hover:shadow-xl transition-all duration-500">
+        <img src="/images/Pongal.jpg" class="w-full h-[250px] object-cover rounded-lg mb-2" />
+        <h4 class="text-xl font-semibold">Pongal</h4>
+        <p>Sweetness of Pongal, Warmth of Tradition.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Google Maps Section -->
+  <section id="map-section" class="py-16 bg-gray-900">
+    <h2 class="text-4xl font-bold text-center mb-8 fade-in">Explore Andhra Pradesh on the Map</h2>
+    <p class="text-center text-gray-400 mb-6 fade-in">Hotels, Restaurants, and Attractions</p>
+    <div class="flex justify-center fade-in">
+      <iframe src="https://www.google.com/maps/d/u/3/embed?mid=1v50sjySqldeZj5vgfmtW9W7P-4KNj-4&ehbc=2E312F" width="640" height="480" class="rounded-lg shadow-lg"></iframe>
+    </div>
+  </section>
+
+</body>
+</html>

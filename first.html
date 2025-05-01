@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JourneyVista</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    header {
+      position: absolute;
+      top: 20px;
+      left: 0;
+      right: 0;
+      padding: 0 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+    }
+
+    .logo span {
+      font-weight: normal;
+    }
+
+    nav .btn {
+      margin-left: 10px;
+      padding: 8px 18px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+
+    .primary {
+      background-color: #2f80ed;
+      color: white;
+    }
+
+    .secondary {
+      background-color: white;
+      color: #333;
+    }
+
+    .hero {
+      background: url('images/backgroung.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
+    .hero .content {
+      position: relative;
+      max-width: 700px;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .hero-btn {
+      background-color: #2f80ed;
+      color: white;
+      padding: 12px 25px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><span>JourneyVista</span></div>
+    <nav>
+      <button class="btn secondary">Create Account</button>
+      <button class="btn primary">Log In</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="content">
+      <h1>Your Travel Just Got Upgraded</h1>
+      <p>Finally, a travel solution just for airline employees.<br />Your exclusive discounts? They're all here.</p>
+      <a href="#" class="btn hero-btn">Get Started</a>
+    </div>
+  </section>
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JourneyVista - Travel Simplified</title>
+  <style>
+    nav a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 100%;
+  height: 2px;
+  background-color: #00bcd4;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+nav a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+nav a:hover {
+  color: #00bcd4;
+}
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 20px 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 10;
+    }
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00bcd4;
+    }
+
+    .btn {
+      padding: 8px 18px;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      font-size: 0.9rem;
+      border: 2px solid #00bcd4;
+      background: transparent;
+      color: #00bcd4;
+      transition: all 0.3s ease;
+    }
+
+    .btn.signup {
+      background-color: #00bcd4;
+      color: white;
+    }
+
+    .hero {
+      background: url('images/backgroung.jpg') no-repeat center center/cover;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: white;
+      text-align: center;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      padding: 0 20px;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      margin-bottom: 30px;
+    }
+
+    .search-box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .search-box input {
+      padding: 15px;
+      border: none;
+      outline: none;
+      flex: 1;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .search-box button {
+      background-color: #00bcd4;
+      color: white;
+      border: none;
+      padding: 17px 30px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .chatbot-btn {
+      position: absolute;
+      bottom: 30px;
+      right: 30px;
+      background-color: rgba(0, 188, 212, 0.9);
+      border-radius: 50%;
+      padding: 20px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      z-index: 10;
+    }
+
+    .chatbot-btn img {
+      width: 30px;
+      height: 30px;
+    }
+
+    .chatbot-modal {
+      position: fixed;
+      bottom: 100px;
+      right: 30px;
+      background-color: white;
+      width: 300px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      display: none;
+      z-index: 20;
+      color: #333;
+      text-align: center;
+    }
+
+    .chatbot-modal header {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    .chatbot-modal .message {
+      font-size: 1rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .chatbot-modal input {
+      width: 100%;
+      padding: 10px;
+      border: 2px solid #00bcd4;
+      border-radius: 4px;
+      outline: none;
+      margin-bottom: 15px;
+    }
+
+    .chatbot-modal button {
+      width: 100%;
+      padding: 10px;
+      background-color: #00bcd4;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">JourneyVista</div>
+    <nav>
+      <a href="https://timely-yeot-7bdf7b.netlify.app" target="_blank">Weather</a>
+      <a href="Startplanning.html" target="_blank">Start Planning</a>
+      <a href="https://superlative-selkie-584ec8.netlify.app" target="_blank">Customize</a>
+      <a href="About.html" target="_blank">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Find the Perfect Place to Go</h1>
+      <p>Receive personalized recommendations for activities, hotels, and more</p>
+      <div class="search-box">
+        <input type="text" id="searchInput" placeholder="🔍 Dreaming of a beach escape? Type it in!" />
+        <button onclick="handleSearch()">Start Planning</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chatbot Button -->
+  <div class="chatbot-btn">
+    <img src="https://img.icons8.com/ios-filled/50/ffffff/chat.png" alt="Chat">
+  </div>
+
+  <!-- Chatbot Modal -->
+  <div class="chatbot-modal" id="chatbotModal">
+    <div class="message">Ask me anything!</div>
+    <input type="text" id="userInput" placeholder="Type your question..." />
+    <button onclick="handleQuestion()">Send</button>
+  </div>
+  <script>
+    const chatbotLogo = document.querySelector('.chatbot-btn');
+    const chatbotModal = document.getElementById('chatbotModal');
+    const userInput = document.getElementById('userInput');
+    let clickCount = 0;
+  
+    chatbotLogo.addEventListener('click', function () {
+      clickCount++;
+      if (clickCount === 1) {
+        chatbotModal.style.display = 'block';
+      } else if (clickCount === 2) {
+        chatbotModal.style.display = 'none';
+        clickCount = 0;
+      }
+    });
+  
+    // Normalizes input: lowercase and remove spaces
+    function normalizeInput(input) {
+      return input.toLowerCase().replace(/\s+/g, '');
+    }
+  
+    // Common logic used by both search and chatbot
+    function searchDestination(inputValue) {
+      const normalized = normalizeInput(inputValue);
+  
+      const statePages = {
+        'tamilnadu': 'states/d1.html',
+        'maharastra': 'states/d2.html',
+        'andhrapradesh': 'states/d4.html',
+        'uttarpradesh': 'states/d3.html',
+        'karnataka': 'states/d5.html'
+      };
+  
+      if (statePages[normalized]) {
+        window.open(statePages[normalized],'_blank');
+      } else {
+        const googleSearchUrl = `https://www.google.com/search?q=${encodeURIComponent(inputValue)}`;
+        window.open(googleSearchUrl, '_blank');
+      }
+    }
+  
+    function handleQuestion() {
+      const question = userInput.value.trim();
+      searchDestination(question);
+      chatbotModal.style.display = 'none';
+      clickCount = 0;
+    }
+  
+    function handleSearch() {
+      const input = document.getElementById('searchInput').value.trim();
+      searchDestination(input);
+    }
+  
+    // Optional: Allow "Enter" key in the main search input
+    document.getElementById('searchInput').addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        handleSearch();
+      }
+    });
+  
+    // Optional: Allow "Enter" key in the chatbot input
+    userInput.addEventListener('keypress', function(e) {
+      if (e.key === 'Enter') {
+        handleQuestion();
+      }
+    });
+  </script>  
+</body>
+</html>

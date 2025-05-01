@@ -1,0 +1,88 @@
+<!--grid-->
+<section style="background-color: #f9f9f9; padding: 4rem 2rem;">
+  <div style="text-align: center;">
+    <h4 style="letter-spacing: 2px; color: #999;">TRIP INSPIRATION</h4>
+    <h2 style="font-size: 2.2rem; font-weight: bold;">FIND THE PERFECT PLACE TO GO ACTIVITIES, HOTELS, AND MORE</h2>
+  </div>
+
+  <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 2rem;">
+    <button style="border: 2px solid #00AEEF; padding: 0.5rem 1rem; background: none; color: #00AEEF; border-radius: 5px; cursor: pointer; transition: 0.3s;">ALL</button>
+    <button style="border: 2px solid #00AEEF; padding: 0.5rem 1rem; background: none; color: #00AEEF; border-radius: 5px; cursor: pointer; transition: 0.3s;">MUST-VISIT DESTINATIONS</button>
+    <button style="border: 2px solid #00AEEF; padding: 0.5rem 1rem; background: none; color: #00AEEF; border-radius: 5px; cursor: pointer; transition: 0.3s;">TOP RATED HOTELS</button>
+    <button style="border: 2px solid #00AEEF; padding: 0.5rem 1rem; background: none; color: #00AEEF; border-radius: 5px; cursor: pointer; transition: 0.3s;">FOOD</button>
+    <button style="border: 2px solid #00AEEF; padding: 0.5rem 1rem; background: none; color: #00AEEF; border-radius: 5px; cursor: pointer; transition: 0.3s;">HISTORY & CULTURE</button>
+    <button style="border: 2px solid #00AEEF; padding: 0.5rem 1rem; background: none; color: #00AEEF; border-radius: 5px; cursor: pointer; transition: 0.3s;">OTHER ACTIVITIES</button>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; margin-top: 3rem;">
+    
+    <a href="/states/d1.html" target = "_blank" style="text-decoration: none;">
+      <div class="destination-card"  style="background: url('images/Destination1.jpg') center/cover no-repeat;">
+        <h4>Tamil Nadu</h4>
+        <p>Enchanting Tamil Nadu</p>
+      </div>
+    </a>
+
+    <a href="/states/d2.html" target="_blank" style="text-decoration: none;">
+      <div class="destination-card" style="background: url('images/Destination2.jpg') center/cover no-repeat;">
+        <h4>Maharashtra</h4>
+        <p>Maharashtra Unlimited</p>
+      </div>
+    </a>
+
+    <a href="/states/d3.html" target="_blank" style="text-decoration: none;">
+      <div class="destination-card" style="background: url('images/UttarPradesh.jpg') center/cover no-repeat;">
+        <h4>Uttar Pradesh</h4>
+        <p>The spiritual state of India</p>
+      </div>
+    </a>
+
+    <a href="/states/d4.html" target="_blank" style="text-decoration: none;">
+      <div class="destination-card" style="background: url('images/Destination4.webp') center/cover no-repeat;">
+        <h4>Andhra Pradesh</h4>
+        <p>The Essence of Incredible India</p>
+      </div>
+    </a>
+
+    <a href="/states/d5.html" target="_blank" style="text-decoration: none;">
+      <div class="destination-card" style="background: url('images/Destination5.jpg') center/cover no-repeat;">
+        <h4>Karnataka</h4>
+        <p>One State, Many Worlds</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- CSS for animation -->
+<style>
+  .destination-card {
+    height: 300px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1rem;
+    position: relative;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .destination-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+  }
+
+  .destination-card h4,
+  .destination-card p {
+    margin: 0;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+  }
+
+  .destination-card p {
+    font-size: 0.9rem;
+    margin-top: 0.3rem;
+  }
+</style>
