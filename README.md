@@ -75,8 +75,6 @@ About Page:
 
 
 
-##Live Demo(Click Here):
-https://hariniguptaemmadi.github.io/JourneyVista/
 
 
 
