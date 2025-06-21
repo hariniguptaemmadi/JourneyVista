@@ -74,11 +74,8 @@ About Page:
 <img width="1499" alt="Screenshot 2025-04-27 at 9 30 26 PM" src="https://github.com/user-attachments/assets/8c154db9-db21-4ca1-bc91-540d37afb08b" />
 
 
+## 🔗 Live Demo
 
-
-
-
-
-
+[Click to View JourneyVista](https://hariniguptaemmadi.github.io/JourneyVista/)
 
 
