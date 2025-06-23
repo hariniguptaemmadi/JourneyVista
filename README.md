@@ -21,25 +21,25 @@ JourneyVista is an interactive tourism platform powered by Gemini AI, designed t
 - **Weather Integration**: OpenWeatherMap API (or any suitable weather API)
 - **Routing**: React Router / Custom JS routing logic
 
-##How It Works
+## How It Works
 
 The chatbot handles user queries using the Gemini API, specifically trained on Indian tourism data.
 The search bar and chatbot both parse queries — if a query matches one of the top 5 tourism states, it navigates to the relevant page; otherwise, it redirects to Google.
 The weather section fetches live data using a weather API and displays it in a clean UI.
 The About and Customise sections give users insight into the platform and allow AI-powered trip planning.
 
-##Academic Context
+## Academic Context
 
 This project was developed as part of the Final SRP Review for the Department of Data Science at Gokaraju Rangaraju Institute of Engineering and Technology.
 
-##Credits
+## Credits
 
 Gemini AI (Google)
 OpenWeatherMap API
 React, Tailwind CSS
 Team JourneyVista
 
-##Results
+## Results
 
 Home Page:
 
